@@ -32,10 +32,12 @@ h1 {
 
 .text-net {
   color: white;
+  text-transform: capitalize;
 }
 
 .text-flix {
   color: red;
+  text-transform: capitalize;
 }
 
 p {
