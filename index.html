@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>NETFLIX REGISTER PAGE</title>
+  </head>
+  <body>
+    <div class="container">
+      
+        <div class="header-container">
+            <h1>
+                <span class="text-net">NET</span><span class="text-flix">FLIX</span>
+              </h1>
+              <p>Thank you for signing up to Netflix. Tell me more about yourself.</p>
+        </div>
+       
+      <div class="form-container">
+<form action="">
+        <div class="personel-info-container form-content">
+        <div class="info">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+
+        <div class="info">
+          <label for="surname">Surname</label>
+          <input
+            type="text"
+            name="surname"
+            id="surname"
+            placeholder="Enter your surname"
+          />
+        </div>
+
+        <div class="info">
+          <label for="surname">Age</label>
+          <input
+            type="number"
+            name="age"
+            id="age"
+            placeholder="Enter your age"
+          />
+        </div>
+
+        <div class="info">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </div>
+        </div>
+       
+
+        <div class="content-type form-content">
+          <label for="">Content Type</label>
+          <select name="content_type" id="content">
+            <option value="Series">Series</option>
+            <option value="Series">Movies</option>
+            <option value="Series">Reality Show</option>
+          </select>
+        </div>
+
+        <div class="movie-type form-content">
+          <label for="">Movie Type</label>
+
+          <div>
+            <input type="checkbox" name="movie_type" id="comedy" value="comedy" />
+            <label for="comedy">Comedy</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="movie_type" id="action" value="action" checked/>
+            <label for="comedy">Action</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="movie_type" id="romance" value="romance" />
+            <label for="comedy">Romance</label>
+          </div>
+        </div>
+
+<div class="gender form-content">
+    <label for="">Gender</label>
+<div>
+<input type="radio" name="gender" id="male" value="male" checked>
+<label for="male">Male</label>
+</div>
+
+<div>
+<input type="radio" name="gender" id="male" value="female">
+<label for="female">Female</label>
+</div>
+
+<div>
+    <input type="radio" name="gender" id="other" value="other">
+    <label for="other">Other</label>
+</div>
+
+
+</div>
+
+
+
+<div class="feedback-container form-content">
+    <label for="">Feedback</label>
+    <textarea name="feedback" id="feedback" placeholder="Please enter your comments..." ></textarea>
+</div>
+
+
+<div class="button-container">
+<input type="submit" value="Send">
+
+</div>
+</form>
+</div>
+        
+      </div>
+    </div>
+  </body>
+</html>
