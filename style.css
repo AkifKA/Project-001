@@ -25,19 +25,41 @@ body {
   text-align: center;
 }
 h1 {
-  font-family: "Bowlby One SC", cursive;
-  font-size: 40px;
-  letter-spacing: 5px;
-}
-
-.text-net {
-  color: white;
-  text-transform: capitalize;
-}
-
-.text-flix {
+  letter-spacing: 0.5px;
+  display: inline-block;
   color: red;
-  text-transform: capitalize;
+  font-weight: 900;
+}
+
+h1:nth-child(1) {
+  font-size: 56px;
+  color: red;
+}
+
+h1:nth-child(2) {
+  font-size: 60px;
+  color: red;
+}
+h1:nth-child(3) {
+  font-size: 64px;
+  color: white;
+  color: red;
+}
+h1:nth-child(4) {
+  font-size: 68px;
+  color: red;
+}
+h1:nth-child(5) {
+  color: red;
+  font-size: 64px;
+}
+h1:nth-child(6) {
+  color: red;
+  font-size: 60px;
+}
+h1:nth-child(7) {
+  color: red;
+  font-size: 56px;
 }
 
 p {
@@ -96,7 +118,7 @@ textarea {
   padding: 5px;
   width: 90px;
   border-radius: 10px;
-  background-color: rgb(197, 78, 78);
+  background-color: rgb(194, 63, 63);
   color: white;
   border: none;
 }
